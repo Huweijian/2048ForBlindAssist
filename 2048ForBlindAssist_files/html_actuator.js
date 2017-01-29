@@ -37,7 +37,6 @@ HTMLActuator.prototype.actuate = function (grid, metadata) {
 };
 
 // Continues the game (both restart and keep playing)
-// Continues the game (both restart and keep playing)
 HTMLActuator.prototype.continue = function () {
   this.clearMessage();
 };
@@ -51,20 +50,20 @@ HTMLActuator.prototype.clearContainer = function (container) {
 
 HTMLActuator.prototype.addTile = function (tile) {
   var text = new Array();
-  text[1] = "扬州江少"
-  text[2] = "中央大学"
-  text[3] = "交通大学"
-  text[4] = "长春一汽"
-  text[5] = "上海市长"
-  text[6] = "市委书记"
-  text[7] = "螳臂当车"
-  text[8] = "苟利国家"
-  text[9] = "如履薄冰"
-  text[10] = "九八抗洪"
-  text[11] = "三个代表"
-  text[12] = "谈笑风生"
-  text[13] = "怒斥港记"
-  text[14] = "很惭愧"
+  text[1] = "自行车"
+  text[2] = "大手表"
+  text[3] = "不值洗头"
+  text[4] = "画美不看"
+  text[5] = "静静观察"
+  text[6] = "红灯按摩"
+  text[7] = "不再扯淡"
+  text[8] = "好吃到爆"
+  text[9] = "程厉害了"
+  text[10] = "捞了很多"
+  text[11] = "很有意思"
+  text[12] = "浩哥静静"
+  text[13] = "龙哥柴博"
+  text[14] = "作者成棒"
   var self = this;
   var text2 = function (n) { var r = 0; while (n > 1) r++, n >>= 1; return r; }
 
@@ -132,19 +131,19 @@ HTMLActuator.prototype.updateScore = function (score) {
   if (difference > 0) {
     var addition = document.createElement("div");
     addition.classList.add("score-addition");
-    addition.textContent = "续" + difference +"秒";
+    addition.textContent = "捞" + difference +"下";
 
     this.scoreContainer.appendChild(addition);
   }
 };
 
 HTMLActuator.prototype.updateBestScore = function (bestScore) {
-  this.bestContainer.textContent = "续" + bestScore + "秒";
+  this.bestContainer.textContent = "捞" + bestScore + "下";
 };
 
 HTMLActuator.prototype.message = function (won) {
   var type    = won ? "game-won" : "game-over";
-  var message = won ? "你可以和我谈笑风生了!" : "还是要提高自己的姿势水平！";
+  var message = won ? "捞太多了，组会又没的讲了，[哭] =/(ㄒoㄒ)/~~" : "捞这么点，怎么好意思和杨总谈笑风生？";
 
   this.messageContainer.classList.add(type);
   this.messageContainer.getElementsByTagName("p")[0].textContent = message;
@@ -169,8 +168,8 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   tweet.setAttribute("data-counturl", "http://hahagame.github.io/ha");
   tweet.textContent = "Tweet";
 
-  var text = "我为长者续命 " + this.score + " 秒，这是坠好滴！！ " +
-             "空膜误蛤，实续兴蛤。谈笑风生的机会在等着你 #文艺花样作死游戏#";
+  var text = "今天捞了 " + this.score + " 下 " +
+             "又没搞科研，好气啊！ #OPT304日常娱乐#";
   tweet.setAttribute("data-text", text);
 
   return tweet;
