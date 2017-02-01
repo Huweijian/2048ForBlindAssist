@@ -1,0 +1,213 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "long.html",
+			"settings":
+			{
+				"buffer_size": 3818,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"package inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/F/2048ForBlindAssist/LAO.html",
+		"/F/2048ForBlindAssist/2048ForBlindAssist_files/game_manager.js",
+		"/F/2048ForBlindAssist/2048ForBlindAssist_files/long_html_actuator.js",
+		"/F/2048ForBlindAssist/long.html",
+		"/F/2048ForBlindAssist/2048ForBlindAssist_files/main.css",
+		"/F/2048ForBlindAssist/2048ForBlindAssist_files/grid.js",
+		"/F/2048ForBlindAssist/2048ForBlindAssist_files/local_score_manager.js",
+		"/F/2048ForBlindAssist/2048ForBlindAssist_files/keyboard_input_manager.js",
+		"/F/2048ForBlindAssist/2048ForBlindAssist_files/html_actuator.js",
+		"/F/2048ForBlindAssist/2048ForBlindAssist.html",
+		"/F/2048ForBlindAssist/2048ForBlindAssist_files/favicon.ico",
+		"/F/2048ForBlindAssist/2048ForBlindAssist_files/tile.js",
+		"/F/2048ForBlindAssist/2048ForBlindAssist_files/animframe_polyfill.js",
+		"/F/2048ForBlindAssist/2048ForBlindAssist_files/application.js",
+		"/F/2048ForBlindAssist/2048ForBlindAssist_files/embed.js",
+		"/F/2048ForBlindAssist/2048ForBlindAssist_files/Count.cgi",
+		"/E/ShadowSocks/pac.txt"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"捞",
+			"game-won",
+			"Life",
+			"life",
+			"捞",
+			"life",
+			"续",
+			"下",
+			"下载",
+			"div",
+			"python.org",
+			"python"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"扯"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "long.html",
+					"settings":
+					{
+						"buffer_size": 3818,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2410,
+								2410
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 315.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 252.0,
+	"status_bar_visible": true
+}
