@@ -130,19 +130,19 @@ HTMLActuator.prototype.updateScore = function (score) {
   if (difference > 0) {
     var addition = document.createElement("div");
     addition.classList.add("score-addition");
-    addition.textContent = "扯" + difference +"下";
+    addition.textContent = "跑" + difference +"步";
 
     this.scoreContainer.appendChild(addition);
   }
 };
 
 HTMLActuator.prototype.updateBestScore = function (bestScore) {
-  this.bestContainer.textContent = "扯" + bestScore + "下";
+  this.bestContainer.textContent = "跑" + bestScore + "步";
 };
 
 HTMLActuator.prototype.message = function (won) {
   var type    = won ? "game-won" : "game-over";
-  var message = won ? "成好了，你见证了我的一生，再也不说你扯淡了" : "扯淡！这智商还不如我大侄子呢！";
+  var message = won ? "居然通关了，快跑！" : "跑的成慢了。还需要学习一个/(ㄒoㄒ)/~~";
 
   this.messageContainer.classList.add(type);
   this.messageContainer.getElementsByTagName("p")[0].textContent = message;
@@ -167,8 +167,8 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   tweet.setAttribute("data-counturl", "http://hahagame.github.io/ha");
   tweet.textContent = "Tweet";
 
-  var text = "今天扯了 " + this.score + " 下 " +
-             "我们都爱大侄子！ #OPT304日常娱乐#";
+  var text = "今天跑了" + this.score + " 步 " +
+             "跑的比谁都快！ #OPT304日常娱乐#";
   tweet.setAttribute("data-text", text);
 
   return tweet;
