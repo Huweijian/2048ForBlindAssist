@@ -50,7 +50,7 @@ HTMLActuator.prototype.clearContainer = function (container) {
 
 HTMLActuator.prototype.addTile = function (tile) {
   var text = new Array();
-  text[1] = "第四实小"
+  text[1] = "滕北扛旗"
   text[2] = "滕州一中"
   text[3] = "枣庄才俊"
   text[4] = "小四铁粉"
